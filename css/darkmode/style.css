@@ -56,6 +56,7 @@ h1, h2 {
 .color-title {
   background: linear-gradient( 271.28deg, #e0f9b8 -1.29%, #47e9ea 53.12%, #0e92ff 117.3%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Poppins';
 }
@@ -82,6 +83,7 @@ a:hover {
   margin-bottom: 30px;
   background: linear-gradient( 271.28deg, #e0f9b8 -1.29%, #47e9ea 53.12%, #0e92ff 117.3%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -181,6 +183,7 @@ a:hover {
   margin-bottom: 30px;
   background: linear-gradient( 271.28deg, #e0f9b8 -1.29%, #47e9ea 53.12%, #0e92ff 117.3%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -362,6 +365,7 @@ a:link {
   font-size: 47px;
   background: linear-gradient( 271.28deg, #e0f9b8 -1.29%, #47e9ea 53.12%, #0e92ff 117.3%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
