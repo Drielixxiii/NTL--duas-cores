@@ -1,15 +1,14 @@
-@media(max-width:1000px){
-  .portfolio{
+@media(max-width:1000px) {
+  .portfolio {
     display: none;
   }
 }
-:root{ 
+
+:root {
   --verde: #38a3a5;
 }
 
-body,
-ul,
-li {
+body, ul, li {
   margin: 0px;
   padding: 0px;
 }
@@ -18,7 +17,6 @@ li {
   display: block;
   max-width: 100%;
 }
-
 
 .titulo {
   font-size: 60px;
@@ -31,9 +29,7 @@ li {
   .grid-container {
     grid-template-columns: 1fr;
   }
-  .menu,
-  .grid-section,
-  .copy {
+  .menu, .grid-section, .copy {
     grid-column: 1;
   }
   .grid-section {
@@ -43,12 +39,9 @@ li {
   .portfolio-lista {
     grid-column: 1;
   }
-  .faq-lista,
-  .dados,
-  .mapa {
+  .faq-lista, .dados, .mapa {
     grid-column: 1 / 3;
   }
-
   .menu {
     margin-top: 0px;
   }
@@ -89,11 +82,9 @@ li {
 .portfolio h2 {
   /* font-family: "IBM Plex Mono", monospace; */
   font-size: 15px;
-  
   text-transform: uppercase;
   margin-bottom: 1rem;
   margin-top: 1rem;
-
 }
 
 .portfolio h2::before {
@@ -106,7 +97,7 @@ li {
 }
 
 .portfolio p {
-  font-family: Helvetica, Arial;
+  font-family: 'Poppins';
   line-height: 1.2;
   margin-bottom: 1rem;
 }
@@ -123,8 +114,7 @@ li {
 }
 
 .portfolio-lista::-webkit-scrollbar {
-  width: 18px;
-  /* height: 0%; */
+  width: 20px;
 }
 
 .portfolio-lista::-webkit-scrollbar-thumb {
@@ -132,7 +122,6 @@ li {
   border-left: 4px solid #121214;
   border-right: 4px solid #121214;
 }
-
 
 .portfolio-lista::-webkit-scrollbar-track {
   background: #121214;
