@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(39, 39, 38);
+  background: #202023;
 }
 
 body::-webkit-scrollbar-thumb {
