@@ -1,3 +1,8 @@
+body {
+  background-color: #f5f6fa;
+  font-family: 'Poppins';
+}
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -16,10 +21,6 @@ body::-webkit-scrollbar-thumb:hover {
 
 :root {
   --verde: var(#38a3a5);
-}
-
-body {
-  background-color: #f5f6fa;
 }
 
 .nomeempresa {
@@ -88,6 +89,11 @@ body {
   transform: translateX(30px);
 }
 
+.hr-dark {
+  color: black;
+  font-weight: bold;
+}
+
 .hr-light {
   color: black;
 }
@@ -128,6 +134,7 @@ h3 {
 
 .descricao-missao {
   font-size: 20px;
+  text-align: justify;
 }
 
 .descricao-politica {
@@ -577,7 +584,7 @@ a:link {
     text-align: center;
     font-size: 15px !important;
     border-radius: 30px;
-    color: #000 !important;
+    color: white !important;
     transition: 1s ease-in-out;
   }
   /* .btncontato:hover {
@@ -736,6 +743,7 @@ a:link {
 }
 
 .unidadesimg {
+  height: 400px;
   transition: 0.5s ease-in-out;
 }
 

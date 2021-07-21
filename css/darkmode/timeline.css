@@ -171,22 +171,22 @@ Main Components
   }
 }
 
-.cd-timeline-navigation a::after {
-  /* arrow icon */
-  content: "";
+.cd-timeline-navigation a {
+  /* these are the left/right arrows to navigate the timeline */
   position: absolute;
-  height: 16px;
-  width: 16px;
-  left: 50%;
+  z-index: 1;
   top: 50%;
   bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: url(../img/cd-arrow.svg) no-repeat 0 0;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: url('/img/next.png');
+  /* background-color: ; */
 }
 
 .cd-timeline-navigation a.prev {

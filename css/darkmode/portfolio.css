@@ -119,12 +119,12 @@ body, ul, li {
 
 .portfolio-lista::-webkit-scrollbar-thumb {
   background: var(--verde);
-  border-left: 4px solid #121214;
-  border-right: 4px solid #121214;
+  border-left: 4px solid transparent;
+  border-right: 4px solid tranparent;
 }
 
 .portfolio-lista::-webkit-scrollbar-track {
-  background: #121214;
+  background: transparent;
 }
 
 .portfolio-descricao {

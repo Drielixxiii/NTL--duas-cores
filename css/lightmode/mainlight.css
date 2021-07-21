@@ -46,6 +46,7 @@ nav a {
   text-transform: uppercase;
   font-weight: 300;
   color: var(--verde);
+  font-weight: bold;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {

@@ -707,8 +707,6 @@ a:link {
 .unidadesimg {
   height: 400px;
   transition: 0.5s ease-in-out;
-  /* transform: 0.2s; */
-  /* filter: grayscale(0%); */
 }
 
 .unidadesimg:hover {

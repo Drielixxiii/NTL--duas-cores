@@ -186,6 +186,7 @@ Main Components
   width: 32px;
   border-radius: 50%;
   background: url('/img/img-light/next-light.png');
+  filter: invert(100%);
   /* background-color: ; */
 }
 
