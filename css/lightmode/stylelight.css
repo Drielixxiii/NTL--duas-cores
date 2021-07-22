@@ -161,6 +161,10 @@ p {
   color: #141414;
 }
 
+.local {
+  font-size: 18px;
+}
+
 .text-modal-light {
   color: black !important;
 }
@@ -434,13 +438,8 @@ a:link {
     text-align: center;
     font-size: 15px !important;
     border-radius: 30px;
-    color: #000 !important;
+    color: white !important;
     transition: 1s ease-in-out;
-  }
-  .btnsaiba:hover {
-    transition: 1s ease-out;
-    color: #fff !important;
-    background-color: transparent !important;
   }
   .clientes {
     margin: 5px 20px 10px 20px;
@@ -600,13 +599,8 @@ a:link {
     text-align: center;
     font-size: 15px !important;
     border-radius: 30px;
-    color: #000 !important;
+    color: white !important;
     transition: 1s ease-in-out;
-  }
-  .btnsaiba:hover {
-    transition: 1s ease-out;
-    color: #fff !important;
-    background-color: transparent !important;
   }
   .section-politica {
     margin-top: 150px;
@@ -764,7 +758,7 @@ a:link {
 
 .vermapa:hover {
   background-color: var(--verde);
-  color: #000;
+  color: white;
   transition: 0.7s ease-out;
 }
 
@@ -881,14 +875,13 @@ a:link {
 
 /*final botoes redes sociais*/
 
-.footer-light {
-  background-color: #e0dede;
-  color: rgb(37, 37, 37);
-  font-size: 14px;
-}
-
-.footer, p {
-  font-size: 15px;
+.footer {
+  background-color: transparent;
+  color: black;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 .direitos {

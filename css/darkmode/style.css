@@ -845,13 +845,12 @@ a:link {
 /*final botoes redes sociais*/
 
 .footer {
-  background-color: #121214;
-  color: rgb(221, 221, 221);
-  font-size: 14px;
-}
-
-.footer p {
-  font-size: 15px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 .direitos {
