@@ -28,8 +28,9 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .nomeempresa {
-  width: 200px;
+  width: 150px;
   height: 60px;
+  filter: invert(0%);
 }
 
 #img-dark {
@@ -76,6 +77,11 @@ a {
 
 a:hover {
   color: #868691;
+}
+
+h2 .titulo-service {
+  color: white;
+  cursor: pointer;
 }
 
 .titulo-politica {
@@ -575,11 +581,11 @@ a:link {
     display: inline-block;
     padding: 10px 30px;
     width: 150px;
-    background: linear-gradient( 93.45deg, #13729a -10.25%, #3fd0a5 73.48%, #28b9f5 156.36%, rgba(37, 193, 196, 0) 209.9%);
+    background: linear-gradient(137.16deg, #2afadf 0%, #4c83ff 121.75%);
     text-align: center;
     font-size: 15px !important;
     border-radius: 30px;
-    color: #fff !important;
+    color: white !important;
     transition: 1s ease-in-out;
   }
   /* .btncontato:hover {
@@ -612,6 +618,10 @@ a:link {
   .clientes {
     margin: 10px 30px 60px 30px;
     filter: grayscale(100%);
+    transition: .5s;
+  }
+  .clientes:hover {
+    filter: grayscale(0%);
   }
   .clientes:nth-child(1) {
     width: 60px;

@@ -24,8 +24,9 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .nomeempresa {
-  width: 200px;
+  width: 150px;
   height: 60px;
+  filter: invert(100%);
 }
 
 .img-dark {
@@ -124,6 +125,11 @@ h3 {
 
 .descricao-inicio {
   font-size: 17px;
+}
+
+.titulo-service {
+  color: white;
+  cursor: pointer;
 }
 
 .titulo-politica {
@@ -632,6 +638,11 @@ a:link {
 .clientes {
   margin: 10px 30px 60px 30px;
   filter: grayscale(100%);
+  transition: .5s;
+}
+
+.clientes:hover {
+  filter: grayscale(0%);
 }
 
 .clientes:nth-child(1) {
